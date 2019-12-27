@@ -1,0 +1,66 @@
+.base {
+  display: flex;
+  justify-content: center;
+}
+
+.errorMsg{
+  font-size: 12px;
+  color: red ;
+  margin-top: -4%;
+  margin-bottom: 3%;
+}
+
+.base .formBase {
+  align-self: center;
+  width: 40%;
+  margin-top: 5%;
+  border-radius: 2%;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+.base .formBase p{
+  text-align: center;
+  color: #333449;
+}
+
+.base .formBase form>button{
+  width: 35%;
+  height: 35px;
+  min-height: 2.7vw;
+  align-self: center;
+  margin-top: 5%;
+}
+
+.base .formBase form{
+  display: flex;
+  flex-direction: column;
+  margin:5%;
+}
+.base .formBase form .selectFile{
+  border: none;
+  height: auto;
+  min-height: auto;
+  margin-bottom: 2%;
+  padding: 0;
+  border-radius: 0;
+}
+
+.base .formBase form>input{
+  height: 35px;
+  min-height: 2.5vw;
+  border-radius: 5px;
+  border:1px solid #dadada;
+  margin-bottom:5%;
+  margin-top: 2%;
+  padding:0 10px;
+}
+
+.base .formBase form textarea{
+  height: 130px;
+  min-height: 9vw;
+  border-radius: 5px;
+  border:1px solid #dadada;
+  margin-bottom:5%;
+  margin-top: 2%;
+  padding:10px;
+}
